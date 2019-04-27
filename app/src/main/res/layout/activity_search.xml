@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.SearchActivity">
+
+
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:background="#ff3097fd"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50sp">
+
+
+        <EditText
+            android:id="@+id/ed_title_input"
+            android:textColor="@drawable/search_textcolor"
+            android:drawablePadding="5sp"
+            android:paddingLeft="10sp"
+            android:hint="请输入内容"
+            android:layout_weight="0.8"
+            android:background="@drawable/serach_bg_item"
+            android:layout_marginRight="8sp"
+            android:layout_marginLeft="8sp"
+            android:drawableLeft="@drawable/select_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iv_title_voice"
+            android:src="@drawable/voice_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_title_search"
+            android:textSize="16sp"
+            android:layout_marginLeft="8sp"
+            android:layout_marginRight="8sp"
+            android:textColor="#ffffff"
+            android:text="搜索"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_search_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+</LinearLayout>

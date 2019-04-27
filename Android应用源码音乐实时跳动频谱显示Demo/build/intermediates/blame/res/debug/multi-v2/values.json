@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Administrator\\AndroidStudioProjects\\MobilePlayer\\Android应用源码音乐实时跳动频谱显示Demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\MobilePlayer\\Android应用源码音乐实时跳动频谱显示Demo\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "119,55",
+                        "endColumns": "48,63",
+                        "endOffsets": "163,114"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,104",
+                        "endColumns": "48,63",
+                        "endOffsets": "99,163"
+                    }
+                }
+            ]
+        }
+    ]
+}

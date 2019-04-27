@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/base_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AudioPlayer">
+
+    <com.huike.mobileplayer.View.BaseVisualizerView
+        android:id="@+id/iv_animation"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="80sp" />
+
+    <TextView
+        android:id="@+id/tv_audio_author"
+        android:textColor="#ffffff"
+        android:text="inknowm"
+        android:layout_marginBottom="6sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/iv_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_audio_MusicName"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:text="tingshuo-huai.aac"
+        android:layout_marginTop="10sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/iv_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_audio_nolyirc"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:text="没有找到歌词"
+        android:layout_marginTop="10sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_audio_timer"
+        android:layout_marginBottom="8sp"
+        android:layout_above="@id/ll_audio_button"
+        android:layout_alignParentRight="true"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:text="00:00/03:45"
+        android:layout_marginTop="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <SeekBar
+        android:id="@+id/sb_seek"
+        android:minHeight="5sp"
+        android:maxHeight="5dp"
+        android:progressDrawable="@drawable/progress_audio_horizontal"
+        android:thumb="@drawable/seek_thumb"
+        android:layout_marginRight="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_below="@id/tv_audio_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <LinearLayout
+        android:layout_marginTop="30sp"
+        android:id="@+id/ll_audio_button"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_audio_mode"
+            android:background="@drawable/btn_audio_player_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_audio_pre"
+            android:background="@drawable/btn_now_playing_play_prevoius_pressed_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_audio_play"
+            android:background="@drawable/btn_now_playing_pause_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_audio_next"
+            android:background="@drawable/btn_now_playing_play_next_pressed_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_audio_world"
+            android:background="@drawable/btn_lyrics_pressed_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <com.huike.mobileplayer.View.LyricView
+        android:id="@+id/lyric_View"
+        android:layout_marginTop="8sp"
+        android:layout_below="@+id/tv_audio_MusicName"
+        android:layout_above="@+id/tv_audio_timer"
+        android:textColor="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

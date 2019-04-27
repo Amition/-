@@ -1,0 +1,4 @@
+#Thu Apr 25 15:40:07 CST 2019
+base.0=C\:\\Users\\Administrator\\AndroidStudioProjects\\MobilePlayer\\speechDemo\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

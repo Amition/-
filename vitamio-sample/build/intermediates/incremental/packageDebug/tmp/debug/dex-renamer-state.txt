@@ -1,0 +1,4 @@
+#Fri Apr 19 11:09:51 CST 2019
+base.0=C\:\\Users\\Administrator\\AndroidStudioProjects\\MobilePlayer\\vitamio-sample\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

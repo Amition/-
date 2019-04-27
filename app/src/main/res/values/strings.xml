@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">123播放</string>
+    <string name="play_name">123播放(系统推荐)</string>
+    <string name="pref_key_translate">translate</string>
+    <string name="pref_key_iat_show">iat_show</string>
+    <string name="text_begin">请开始说话…</string>
+    <string name="text_begin_recognizer">开始音频流识别</string>
+</resources>

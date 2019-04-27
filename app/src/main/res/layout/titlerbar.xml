@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huike.mobileplayer.View.TitlerBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="#ff3097fd"
+    android:layout_height="50dp">
+
+
+    <ImageView
+        android:layout_marginLeft="8sp"
+        android:src="@drawable/ic_topbanner_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_title_search"
+        android:clickable="true"
+        android:textColor="@drawable/search_textcolor"
+        android:drawablePadding="5sp"
+        android:paddingLeft="10sp"
+        android:text="请输入内容"
+        android:layout_weight="0.8"
+        android:background="@drawable/serach_bg_item"
+        android:layout_marginRight="8sp"
+        android:layout_marginLeft="8sp"
+        android:drawableLeft="@drawable/select_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_title_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_title_geme"
+            android:src="@drawable/ic_topbanner_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_alignRight="@id/iv_title_geme"
+            android:background="@drawable/game_dor"
+            android:layout_width="6sp"
+            android:layout_height="6sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_title_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp"
+        android:src="@drawable/ic_topbanner_record" />
+
+</com.huike.mobileplayer.View.TitlerBar>

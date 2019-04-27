@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\MobilePlayer\\Android应用源码音乐实时跳动频谱显示Demo\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon.png.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\MobilePlayer\\Android应用源码音乐实时跳动频谱显示Demo\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\MobilePlayer\\Android应用源码音乐实时跳动频谱显示Demo\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\MobilePlayer\\Android应用源码音乐实时跳动频谱显示Demo\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\MobilePlayer\\Android应用源码音乐实时跳动频谱显示Demo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon.png.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\MobilePlayer\\Android应用源码音乐实时跳动频谱显示Demo\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\MobilePlayer\\Android应用源码音乐实时跳动频谱显示Demo\\build\\intermediates\\res\\merged\\debug\\raw_z8806c.mp3.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\MobilePlayer\\Android应用源码音乐实时跳动频谱显示Demo\\src\\main\\res\\raw\\z8806c.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\MobilePlayer\\Android应用源码音乐实时跳动频谱显示Demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.png.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\MobilePlayer\\Android应用源码音乐实时跳动频谱显示Demo\\src\\main\\res\\drawable-hdpi\\icon.png"
+    }
+]
