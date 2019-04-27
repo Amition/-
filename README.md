@@ -8,6 +8,6 @@
 六：智能语言识别,语言合成，语言搜索，语言播放,
 市面上80%的播放器技术都用上;
 
+![image](https://github.com/Amition/Cell-phone-video/blob/master/app/src/main/res/drawable-hdpi/voice_c.png)
 
-![image](https://github.com/Amition/Cell-phone-video/blob/master/app/src/main/res/drawable/project_introduction.png)
 
